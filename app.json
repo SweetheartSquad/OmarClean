@@ -58,7 +58,7 @@
     "HUBOT_HEROKU_KEEPALIVE_URL": {
       "value": "https://YOUR_BOT_APP.herokuapp.com",
       "description": "Set to use the subdomain of this bot to keep it awake",
-      "required": true
+      "required": false
     },
     "BUILDPACK_URL": {
       "value": "https://github.com/heroku/heroku-buildpack-nodejs",

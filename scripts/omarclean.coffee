@@ -8,3 +8,5 @@ module.exports = (robot) ->
     robot.respond /test console/i, (res) ->
       res.send "testing console"
       console.log("testing console")
+    robot.hear /@all/i, (res) ->
+      res.send "@MichaelHetman, @RyanBluth, @EmmaThurlow, @IanMartin, @CatherineWong, @SeanLeBlanc"
